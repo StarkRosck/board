@@ -1,0 +1,37 @@
+2025-08-12T22:17:17.476-03:00  INFO 14224 --- [board] [           main] liquibase.changelog                      : Creating database history table with name: u572677979_PDK_CR2.DATABASECHANGELOG
+2025-08-12T22:17:17.623-03:00  INFO 14224 --- [board] [           main] liquibase.changelog                      : Reading from u572677979_PDK_CR2.DATABASECHANGELOG
+2025-08-12T22:17:17.725-03:00  WARN 14224 --- [board] [           main] liquibase.executor                       : Name 'PK_DATABASECHANGELOGLOCK' ignored for PRIMARY key.
+2025-08-12T22:17:17.872-03:00  INFO 14224 --- [board] [           main] liquibase.lockservice                    : Successfully acquired change log lock
+2025-08-12T22:17:17.886-03:00  INFO 14224 --- [board] [           main] liquibase.command                        : Using deploymentId: 5047837886
+2025-08-12T22:17:17.898-03:00  INFO 14224 --- [board] [           main] liquibase.changelog                      : Reading from u572677979_PDK_CR2.DATABASECHANGELOG
+Running Changeset: db/changelog/migrations/001-inicial.sql::202508191938::arthur
+2025-08-12T22:17:17.957-03:00  INFO 14224 --- [board] [           main] liquibase.changelog                      : Custom SQL executed
+2025-08-12T22:17:17.966-03:00  INFO 14224 --- [board] [           main] liquibase.changelog                      : ChangeSet db/changelog/migrations/001-inicial.sql::202508191938::arthur ran successfully in 44ms
+Running Changeset: db/changelog/migrations/002-inicial.sql::202508191938::arthur
+2025-08-12T22:17:18.032-03:00  INFO 14224 --- [board] [           main] liquibase.changelog                      : Custom SQL executed
+2025-08-12T22:17:18.042-03:00  INFO 14224 --- [board] [           main] liquibase.changelog                      : ChangeSet db/changelog/migrations/002-inicial.sql::202508191938::arthur ran successfully in 44ms
+Running Changeset: db/changelog/migrations/003-inicial.sql::202508191938::arthur
+2025-08-12T22:17:18.099-03:00  INFO 14224 --- [board] [           main] liquibase.changelog                      : Custom SQL executed
+2025-08-12T22:17:18.108-03:00  INFO 14224 --- [board] [           main] liquibase.changelog                      : ChangeSet db/changelog/migrations/003-inicial.sql::202508191938::arthur ran successfully in 43ms
+Running Changeset: db/changelog/migrations/004-inicial.sql::202508191938::arthur
+2025-08-12T22:17:18.157-03:00  INFO 14224 --- [board] [           main] liquibase.changelog                      : Custom SQL executed
+2025-08-12T22:17:18.168-03:00  INFO 14224 --- [board] [           main] liquibase.changelog                      : ChangeSet db/changelog/migrations/004-inicial.sql::202508191938::arthur ran successfully in 40ms
+
+UPDATE SUMMARY
+Run:                          4
+Previously run:               0
+Filtered out:                 0
+-------------------------------
+Total change sets:            4
+
+2025-08-12T22:17:18.207-03:00  INFO 14224 --- [board] [           main] liquibase.util                           : UPDATE SUMMARY
+2025-08-12T22:17:18.207-03:00  INFO 14224 --- [board] [           main] liquibase.util                           : Run:                          4
+2025-08-12T22:17:18.207-03:00  INFO 14224 --- [board] [           main] liquibase.util                           : Previously run:               0
+2025-08-12T22:17:18.207-03:00  INFO 14224 --- [board] [           main] liquibase.util                           : Filtered out:                 0
+2025-08-12T22:17:18.207-03:00  INFO 14224 --- [board] [           main] liquibase.util                           : -------------------------------
+2025-08-12T22:17:18.207-03:00  INFO 14224 --- [board] [           main] liquibase.util                           : Total change sets:            4
+2025-08-12T22:17:18.208-03:00  INFO 14224 --- [board] [           main] liquibase.util                           : Update summary generated
+2025-08-12T22:17:18.209-03:00  INFO 14224 --- [board] [           main] liquibase.command                        : Update command completed successfully.
+Liquibase: Update has been successful. Rows affected: 4
+2025-08-12T22:17:18.235-03:00  INFO 14224 --- [board] [           main] liquibase.lockservice                    : Successfully released change log lock
+2025-08-12T22:17:18.240-03:00  INFO 14224 --- [board] [           main] liquibase.command                        : Command execution complete
